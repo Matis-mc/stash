@@ -3,7 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Une bibliothèque collaborative de sources de veille technologique avec catégories, tags et export Markdown." />
+  <meta name="theme-color" content="#c8392b" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="STASH" />
+  <meta name="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'><rect fill='%23c8392b' width='180' height='180'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-size='100' font-weight='bold' font-family='serif' fill='white' transform='translate(0 10)'>STASH</text></svg>" />
   <title>STASH — Veille Technologique</title>
+  <link rel="manifest" href="./manifest.json" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%23c8392b' width='100' height='100'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-size='60' font-weight='bold' font-family='serif' fill='white' transform='translate(0 8)'>ST</text></svg>" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=JetBrains+Mono:wght@300;400;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./style.css" />
@@ -73,5 +81,16 @@
 <div class="toast" id="toast"></div>
 
 <script src="./app.js"></script>
+
+<!-- ===== PWA SERVICE WORKER ===== -->
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./sw.js').then((reg) => {
+      console.log('[PWA] Service Worker registered:', reg);
+    }).catch((err) => {
+      console.warn('[PWA] Service Worker registration failed:', err);
+    });
+  }
+</script>
 </body>
 </html>
