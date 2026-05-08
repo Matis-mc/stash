@@ -20,7 +20,7 @@ const CAT_COLORS = {
   'Sécurité':   'var(--cat-securite)',
   'Actualités': 'var(--cat-actualites)',
   'Mobile':     'var(--cat-mobile)',
-  'Produit':    'var(--cat-produit)',
+  'Backend':    'var(--cat-backend)',
 };
 
 function getCatColor(cat) {

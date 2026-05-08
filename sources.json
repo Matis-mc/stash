@@ -1,30 +1,48 @@
 {
   "sources": [
     {
-      "id": "003",
-      "name": "The Verge",
-      "url": "https://theverge.com",
-      "description": "Actualités tech grand public : gadgets, industrie, culture numérique. Ton éditorial fort.",
-      "category": "Actualités",
-      "tags": ["Tech", "Gadgets", "Culture", "Industrie"],
+      "id": "001",
+      "name": "Dance With Robots",
+      "url": "https://davegriffith.substack.com",
+      "description": "Blog du développeur David Griggith couvrant les dernières tendances en matière d'IA.",
+      "category": "IA",
+      "tags": ["Tech", "Culture", "Claude"],
       "featured": false
     },
     {
-      "id": "006",
-      "name": "The New Stack",
+      "id": "002",
+      "name": "je suis un Dev",
       "url": "https://thenewstack.io",
-      "description": "Couverture approfondie du cloud natif, Kubernetes, DevOps et des architectures modernes.",
-      "category": "DevOps",
-      "tags": ["Kubernetes", "Cloud", "CI/CD", "Microservices"],
+      "description": "Devenir un meilleur développeur et prendre le contrôle de sa carrière",
+      "category": "Backend",
+      "tags": ["JavaScript", "Cloud"],
       "featured": false
     },
     {
-      "id": "007",
-      "name": "Hacker News",
-      "url": "https://news.ycombinator.com",
-      "description": "Agrégateur communautaire de Y Combinator. Discussions techniques de haute qualité sur tout l'écosystème tech.",
-      "category": "Actualités",
-      "tags": ["Community", "Startups", "Programming", "Security"],
+      "id": "003",
+      "name": "Blog Antrhopic",
+      "url": "https://www.anthropic.com/",
+      "description": "Blog de l'entreprise d'IA Anthropic, couvrant les dernières avancées en matière de modèles de langage et d'IA.",
+      "category": "IA",
+      "tags": ["Recherche", "Actualité"],
+      "featured": true
+    },
+    {
+      "id": "004",
+      "name": "JavaPro",
+      "url": "https://javapro.io/",
+      "description": "Site spécialisé sur le langage Java",
+      "category": "Backend",
+      "tags": ["Java", "DevOps"],
+      "featured": true
+    },
+    {
+      "id": "005",
+      "name": "Mostly nerdless",
+      "url": "https://mostlynerdless.de",
+      "description": "petit blog autour du langage Java",
+      "category": "Backend",
+      "tags": ["Java", "DevOps"],
       "featured": true
     }
   ]
