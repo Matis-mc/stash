@@ -266,7 +266,7 @@ h1 em {
 #grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 0;
+  gap: 5px;
   animation: fadeIn 0.5s 0.2s ease both;
 }
 
@@ -320,7 +320,7 @@ h1 em {
   transition: color var(--transition);
 }
 
-.card:hover .card-index { color: #ede7df; }
+.card:hover .card-index { color: #d63317; }
 
 /* Card header */
 .card-header {
