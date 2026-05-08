@@ -10,15 +10,15 @@
   "theme_color": "#c8392b",
   "icons": [
     {
-      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%23c8392b' width='192' height='192'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-size='120' font-weight='bold' font-family='serif' fill='white' transform='translate(0 10)'>ST</text><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-size='120' font-weight='bold' font-family='serif' fill='%23f7f3ee' transform='translate(15 10)'>A</text><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-size='120' font-weight='bold' font-family='serif' fill='white' transform='translate(30 10)'>SH</text></svg>",
+      "src": "logo.png",
       "sizes": "192x192",
-      "type": "image/svg+xml",
+      "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect fill='%23c8392b' width='512' height='512'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-size='320' font-weight='bold' font-family='serif' fill='white' transform='translate(0 30)'>ST</text><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-size='320' font-weight='bold' font-family='serif' fill='%23f7f3ee' transform='translate(40 30)'>A</text><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-size='320' font-weight='bold' font-family='serif' fill='white' transform='translate(80 30)'>SH</text></svg>",
+      "src": "logo.png",
       "sizes": "512x512",
-      "type": "image/svg+xml",
+      "type": "image/png",
       "purpose": "any maskable"
     }
   ],
