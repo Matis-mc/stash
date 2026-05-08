@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>STASH — Veille Technologique</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=JetBrains+Mono:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+<div class="app">
+
+  <!-- ===== HEADER ===== -->
+  <header>
+    <div class="header-top">
+      <div class="logo-block">
+        <div class="logo-label">// <span>Bibliothèque</span> de veille technologique</div>
+        <h1>ST<em>A</em>SH</h1>
+      </div>
+      <div class="header-meta">
+        <div class="source-count">
+          <strong id="total-count">—</strong>
+          sources indexées
+        </div>
+        <div class="status-bar">
+          <div class="status-dot"></div>
+          Système opérationnel
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== TOOLBAR ===== -->
+  <div class="toolbar">
+    <div class="search-wrap">
+      <input type="text" id="search" placeholder="Rechercher une source, un tag..." autocomplete="off" />
+    </div>
+    <button class="btn" id="sort-btn" title="Trier par votes">
+      <span class="btn-icon">↑</span> <span id="sort-label">Alphabétique</span>
+    </button>
+    <button class="btn" id="export-btn" title="Exporter la vue courante">
+      <span class="btn-icon">⬇</span><span class="btn-label"> Exporter</span>
+    </button>
+    <button class="btn" id="view-btn" title="Changer de vue">
+      <span class="btn-icon" id="view-icon">⊞</span>
+    </button>
+  </div>
+
+  <!-- ===== CATEGORY FILTERS ===== -->
+  <div class="filters" id="filters">
+    <button class="filter-btn active" data-cat="Tout">Tout</button>
+    <button class="filter-btn" data-cat="Favoris">❤ Favoris</button>
+    <!-- Les catégories dynamiques sont injectées par app.js -->
+  </div>
+
+  <!-- ===== CONTROLS ROW ===== -->
+  <div class="controls-row">
+    <div class="results-info" id="results-info"></div>
+    <div class="controls-right"></div>
+  </div>
+
+  <!-- ===== LOADING ===== -->
+  <div id="loading">
+    <span>Chargement</span>
+    <div class="loader-dots">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+
+  <!-- ===== GRID ===== -->
+  <div id="grid" style="display:none;"></div>
+
+</div>
+
+<!-- ===== TOAST ===== -->
+<div class="toast" id="toast"></div>
+
+<script src="./app.js"></script>
+</body>
+</html>

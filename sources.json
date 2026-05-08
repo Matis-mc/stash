@@ -1,0 +1,31 @@
+{
+  "sources": [
+    {
+      "id": "003",
+      "name": "The Verge",
+      "url": "https://theverge.com",
+      "description": "Actualités tech grand public : gadgets, industrie, culture numérique. Ton éditorial fort.",
+      "category": "Actualités",
+      "tags": ["Tech", "Gadgets", "Culture", "Industrie"],
+      "featured": false
+    },
+    {
+      "id": "006",
+      "name": "The New Stack",
+      "url": "https://thenewstack.io",
+      "description": "Couverture approfondie du cloud natif, Kubernetes, DevOps et des architectures modernes.",
+      "category": "DevOps",
+      "tags": ["Kubernetes", "Cloud", "CI/CD", "Microservices"],
+      "featured": false
+    },
+    {
+      "id": "007",
+      "name": "Hacker News",
+      "url": "https://news.ycombinator.com",
+      "description": "Agrégateur communautaire de Y Combinator. Discussions techniques de haute qualité sur tout l'écosystème tech.",
+      "category": "Actualités",
+      "tags": ["Community", "Startups", "Programming", "Security"],
+      "featured": true
+    }
+  ]
+}
