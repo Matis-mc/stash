@@ -42,15 +42,11 @@ async function init() {
 
   document.getElementById('loading').style.display   = 'none';
   document.getElementById('grid').style.display      = 'grid';
-  document.getElementById('total-count').textContent = allSources.length;
 
   buildFilters();
   bindEvents();
   render();
 }
-
-/* =============================================
-   
 
 /* =============================================
    BUILD CATEGORY FILTERS

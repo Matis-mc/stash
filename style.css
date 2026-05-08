@@ -93,25 +93,6 @@ h1 em {
   flex-shrink: 0;
 }
 
-.source-count {
-  font-family: var(--mono);
-  font-size: 10px;
-  color: var(--ink-mid);
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-  text-align: right;
-}
-
-.source-count strong {
-  font-family: var(--serif);
-  font-size: 52px;
-  color: var(--ink);
-  display: block;
-  line-height: 1;
-  font-weight: 900;
-  letter-spacing: -0.02em;
-}
-
 .header-date {
   font-family: var(--mono);
   font-size: 10px;
